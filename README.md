@@ -1,7 +1,11 @@
 # docker-jenkins-build-projects
-This is a Jenkins Docker setup using Docker-compose.
-The docker compose file will deploy a new version of Jenkins
-and save $JENKINS_HOME and Jenkins data outside of the Jenkins container.  
+This project deploys Jenkins in a docker container.
+There is a setup.sh script to install docker and needed packages
+for Ubuntu systems.
+
+The container saves the $JENKINS_HOME and Jenkins data outside of the Jenkins container
+
+The setup.sh script also pulls the plugins dir from a dropbox dir to prevent large files from stay in git.
 
 ## Login
 * username: guest
