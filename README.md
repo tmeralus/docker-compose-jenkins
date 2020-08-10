@@ -4,9 +4,9 @@ The docker compose file will deploy a new version of Jenkins
 and save $JENKINS_HOME and Jenkins data outside of the Jenkins container.  
 
 ## Login
- username: guest
- password: guest
- email: guest@guest.com
+* username: guest
+* password: guest
+* email: guest@guest.com
 
 # Deploy
  Run this command in your terminal from the folder where the docker-compose file sits.
